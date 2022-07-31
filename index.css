@@ -1,6 +1,3 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 html {
     margin: 0;
     padding: 0;
@@ -15,19 +12,21 @@ html {
 /* nee to add max width and height */
 
 body {
-    width: calc(87.5% - 50px);
-    height: calc(53.4% - 50px);
+    width: 278px;
+    height: 310px;
     margin: auto;
     background-color: hsl(213, 19%, 18%);
     background-image: linear-gradient(#21252E, #151b23);
     border-radius: 15px;
     padding: 25px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2)
 }
 
 #star {
     border-radius: 100px;
     background-color: #262F38;
     padding: 13px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2)
 }
 
 h1 {
@@ -51,7 +50,6 @@ h1 {
 
 .rate-btn {
     margin: 0;
-    padding: 0;
     width: 42px;
     height: 42px;
     border-radius: 100px;
@@ -60,6 +58,7 @@ h1 {
     color: hsl(216, 12%, 54%);
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2)
 }
 
 .rate-btn:hover {
@@ -88,11 +87,19 @@ button {
     font-size: 15px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2)
 }
 
 #submit-btn:hover {
     background-color: white;
     color: hsl(25, 97%, 53%);
+}
+
+#select-rating {
+    color: hsl(25, 97%, 53%);
+    font-size: 10px;
+    text-align: center;
+    margin-top: -6px;
 }
 
 #thank-page {
@@ -128,5 +135,54 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    
+    background-color: hsl(213, 19%, 18%);
+    padding: 3px 0 0 0;
+    font-size: 10px;
+    text-align: center;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: hsl(25, 97%, 53%);
+    font-size: 10px;
+}
+
+a:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(213, 19%, 18%);
+    padding: 1px 4px 0 4px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        width: 348px;
+        height: 353px;
+        padding: 33px;
+    }
+
+    #star {
+        padding: 17px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-top: 30px; 
+    }
+
+    #page > p {
+        font-size: 15px;
+        line-height: 160%;
+    }
+
+    .rate-btn {
+        height: 52px;
+        width: 52px;
+        font-size: 17px;
+    }
+
+    #submit-btn {
+        font-size: 16px;
+    }
 }
