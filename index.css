@@ -9,8 +9,6 @@ html {
     height: 100vh;
 }
 
-/* nee to add max width and height */
-
 body {
     width: 278px;
     height: 310px;
@@ -19,14 +17,14 @@ body {
     background-image: linear-gradient(#21252E, #151b23);
     border-radius: 15px;
     padding: 25px;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1)
 }
 
 #star {
     border-radius: 100px;
     background-color: #262F38;
     padding: 13px;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1)
 }
 
 h1 {
@@ -58,7 +56,7 @@ h1 {
     color: hsl(216, 12%, 54%);
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1)
 }
 
 .rate-btn:hover {
@@ -87,7 +85,7 @@ button {
     font-size: 15px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1)
 }
 
 #submit-btn:hover {
