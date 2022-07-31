@@ -158,6 +158,7 @@ a:hover {
         width: 348px;
         height: 353px;
         padding: 33px;
+        border-radius: 30px;
     }
 
     #star {
