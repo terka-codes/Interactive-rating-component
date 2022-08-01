@@ -167,7 +167,8 @@ a:hover {
 
     h1 {
       font-size: 28px;
-      margin-top: 30px; 
+      margin-top: 30px;
+      font-weight: 400; 
     }
 
     #page > p {
@@ -183,5 +184,22 @@ a:hover {
 
     #submit-btn {
         font-size: 16px;
+    }
+
+    #thank-img {
+        height: 108px;
+    }
+
+    #user-rating {
+        color: hsl(25, 97%, 53%);
+        border-radius: 30px;
+        padding: 7px 20px 5px 20px;
+        margin: 18px 0 8px 0;
+    }
+
+    #thank-text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 155%;
     }
 }
